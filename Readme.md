@@ -51,11 +51,14 @@ We can use the infer keyword to infer the inner type of an outer type, for examp
 type User = typeof users extends (infer Item)[] ? Item: never;
 ```
 
-There is still much more we can do with the infer keyword. For those interested:the payment was a success we return the shape after ? else we return the shape after :.
+There is still much more we can do with the infer keyword. For those interested:
+
 https://www.typescriptlang.org/docs/handbook/2/conditional-types.html 
     - Basic use and ReturnType
+    
 https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-7.html
     - Place extends constraints on infer - FirstIfString<T>
+    
 https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-8.html
     - Constrained infer in template string type 
 
