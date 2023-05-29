@@ -65,7 +65,7 @@ https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-8.html
 ## Branded types
 Type branding or branded types is a way of implementing nominal typing in typescript. With nominal typing, the uniqueness of a type depends on its name. Typescript, however, has a structural type system. If two shapes are the same, then they have the same type.
 
-Nominal typing is less flexible than structural typing; it is, however, useful when we have structurally equivalent types that must be handled differently. Ie. objects with similar properties but different business meanings.
+Nominal typing is less flexible than structural typing; it is, however, useful when having structurally equivalent types that must be handled differently. Ie. objects with similar properties but different business meanings.
 
 ```
 type Invoice = { id: string,
